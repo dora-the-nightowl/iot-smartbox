@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SmartBox</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="common/css/style.css">
+        <script type="text/javascript" src="common/js/common.js"></script>
+    </head>
+    <body onload="printClock()">
+        <div class="wrap">
+            <div class="header">
+                <h1>IoT SmartBox</h1>
+                <div class="clock" id="clock"></div>
+            </div>
+            <div class="main-content">
+                <form action="/smth.php">
+                    <!--<label for="food">Choose categories:</label>-->
+                    <br><br>
+                    <fieldset>
+                        <legend>Choose categories:</legend>
+                        <input type="checkbox" id="category1" name="category1" value="meat">
+                        <label for="category1"> 육류</label><br>
+                        <input type="checkbox" id="category2" name="category2" value="fruit">
+                        <label for="category2"> 과일</label><br>
+                        <input type="checkbox" id="category3" name="category3" value="veg">
+                        <label for="category3"> 채소</label><br><br>
+                        <input type="submit" value="Select">
+                    </fieldset>
+                    <br><br>
+                </form>
+            </div>
+            <div class="footer">
+                
+            </div>
+        </div>
+    </body>
+</html>
