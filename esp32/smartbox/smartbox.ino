@@ -7,8 +7,8 @@
 
 Adafruit_BME280 bme;  // I2C
 AWS_IOT hornbill;
-const char* ssid = "SK_WiFiGIGA594C";
-const char* password = "1903025786";
+const char* ssid = "wifi";
+const char* password = "pw";
 char HOST_ADDRESS[] = "a2zm0k5ovubv8z-ats.iot.ap-northeast-2.amazonaws.com";
 char CLIENT_ID[]= "ymleeESP32"; // not necessary for this assignment
 // 알아서 바꿔주쎄용
